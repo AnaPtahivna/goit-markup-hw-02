@@ -12,60 +12,67 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <header class="page header">
-      <a href="" lang="en">Web Studio</a>
-      <nav>
-        <ul>
-          <li><a href="index.html">Студия</a></li>
-          <li><a href="portfolio.html">Портфолио</a></li>
-          <li><a href="">Контакты</a></li>
+    <header class="header">
+      <a class="header-logo link" href="" lang="en">
+        <span class="header-accent">Web</span>
+        Studio
+      </a>
+      <nav class="header-nav link">
+        <ul class="list menu-list">
+          <li class="menu-link link"><a href="index.html">Студия</a></li>
+          <li class="menu-link link"><a href="portfolio.html">Портфолио</a></li>
+          <li class="menu-link link"><a href="">Контакты</a></li>
         </ul>
       </nav>
-      <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-      <a href="tel:+380961111111">+38 096 111 11 11</a>
+      <a class="header-mail link" href="mailto:info@devstudio.com">
+        info@devstudio.com
+      </a>
+      <a class="header-tel link" href="tel:+380961111111">+38 096 111 11 11</a>
     </header>
 
     <main>
-      <section>
+      <section class="hero">
         <div>
-          <h1>Эффективные решения для вашего бизнеса</h1>
-          <button class="button">Заказать услугу</button>
+          <h1 class="hero-text">
+            Эффективные решения для вашего бизнеса
+          </h1>
+          <button class="button hero-btn">Заказать услугу</button>
         </div>
       </section>
 
-      <section>
+      <section class="advantage">
         <h2 hidden>Преимущества</h2>
-        <ul>
+        <ul class="list">
           <li>
-            <h3>Внимание к деталям</h3>
-            <p>
+            <h3 class="advantage-item">Внимание к деталям</h3>
+            <p class="advantage-detail-item">
               Идейные соображения, а также начало повседневной работы по
               формированию позиции.
             </p>
           </li>
         </ul>
-        <ul>
+        <ul class="list">
           <li>
-            <h3>Пунктуальность</h3>
-            <p>
+            <h3 class="advantage-item">Пунктуальность</h3>
+            <p class="advantage-detail-item">
               Задача организации, в особенности же рамки и место обучения кадров
               влечет за собой.
             </p>
           </li>
         </ul>
-        <ul>
+        <ul class="list">
           <li>
-            <h3>Планирование</h3>
-            <p>
+            <h3 class="advantage-item">Планирование</h3>
+            <p class="advantage-detail-item">
               Равным образом консультация с широким активом в значительной
               степени обуславливает.
             </p>
           </li>
         </ul>
-        <ul>
+        <ul class="list">
           <li>
-            <h3>Современные технологии</h3>
-            <p>
+            <h3 class="advantage-item">Современные технологии</h3>
+            <p class="advantage-detail-item">
               Значимость этих проблем настолько очевидна, что реализация
               плановых заданий.
             </p>
@@ -73,9 +80,9 @@
         </ul>
       </section>
 
-      <section>
-        <h2>Чем мы занимаемся</h2>
-        <ul>
+      <section class="activities">
+        <h2 class="activities-header">Чем мы занимаемся</h2>
+        <ul class="list">
           <li>
             <img
               src="./img/code-writing.jpg"
@@ -104,8 +111,8 @@
       </section>
 
       <section>
-        <h2>Наша команда</h2>
-        <ul>
+        <h2 class="team">Наша команда</h2>
+        <ul class="list">
           <li>
             <img
               src="./img/IgorDemianenko.jpg"
@@ -113,8 +120,8 @@
               width="270"
               height="260"
             />
-            <h3>Игорь Демьяненко</h3>
-            <p>Product Designer</p>
+            <h3 class="team-member">Игорь Демьяненко</h3>
+            <p class="team-member-occupation">Product Designer</p>
           </li>
           <li>
             <img
@@ -123,8 +130,8 @@
               width="270"
               height="260"
             />
-            <h3>Ольга Репина</h3>
-            <p>Frontend Developer</p>
+            <h3 class="team-member">Ольга Репина</h3>
+            <p class="team-member-occupation">Frontend Developer</p>
           </li>
           <li>
             <img
@@ -133,8 +140,8 @@
               width="270"
               height="260"
             />
-            <h3>Николай Тарасов</h3>
-            <p>Marketing</p>
+            <h3 class="team-member">Николай Тарасов</h3>
+            <p class="team-member-occupation">Marketing</p>
           </li>
           <li>
             <img
@@ -143,19 +150,23 @@
               width="270"
               height="260"
             />
-            <h3>Михаил Ермаков</h3>
-            <p>UI Designer</p>
+            <h3 class="team-member">Михаил Ермаков</h3>
+            <p class="team-member-occupation">UI Designer</p>
           </li>
         </ul>
       </section>
     </main>
 
-    <footer>
-      <a href="" lang="en">Web Studio</a>
-      <address>
-        <ul>
+    <footer class="footer">
+      <a class="footer-logo link" href="" lang="en">
+        <span class="footer-accent">Web</span>
+        Studio
+      </a>
+      <address class="contacts-address">
+        <ul class="list">
           <li>
             <a
+              class="footer-address link"
               href="https://goo.gl/maps/JnVJ7oRj71nepejRA"
               target="_blank"
               rel="noreferrer noopener"
@@ -163,8 +174,16 @@
               г. Киев, пр-т Леси Украинки, 26
             </a>
           </li>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+          <li>
+            <a class="footer-mail link" href="mailto:info@example.com">
+              info@example.com
+            </a>
+          </li>
+          <li>
+            <a class="footer-tel link" href="tel:+380991111111">
+              +38 099 111 11 11
+            </a>
+          </li>
         </ul>
       </address>
     </footer>
