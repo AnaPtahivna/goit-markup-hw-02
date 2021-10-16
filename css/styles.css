@@ -241,7 +241,8 @@ color: var(--header-text-color);
 
 
 .btn-list:hover, .btn-list:focus {
-  color: var(--accent-color);
+  background-color: var(--accent-color);
+  color: var(--header-color);
 }
 
 .list-item {
