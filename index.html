@@ -12,34 +12,50 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
     <header class="header">
-      <a class="header-logo link" href="" lang="en"><span class="header-accent">Web</span>Studio</a>
-      <nav class="header-nav link">
-        <ul class="list menu-list">
-          <li><a class="menu-link link" href="index.html">Студия</a></li>
-          <li><a class="menu-link link" href="portfolio.html">Портфолио</a></li>
-          <li><a class="menu-link link" href="">Контакты</a></li>
+      <div class="container header-container">
+        <a class="header-logo link" href="" lang="en">
+          <span class="header-accent">Web</span>Studio</a>
+        <nav class="header-nav link">
+          <ul class="list menu-list">
+            <li class="menu-item">
+              <a class="menu-link link" href="index.html">Студия</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="portfolio.html">Портфолио</a>
+            </li>
+            <li class="menu-item">
+              <a class="menu-link link" href="">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="header-contacts list">
+          <li>
+            <a class="header-mail link" href="mailto:info@devstudio.com">
+              info@devstudio.com
+            </a>
+          </li>
+          <li>
+            <a class="header-tel link" href="tel:+380961111111">
+              +38 096 111 11 11
+            </a>
+          </li>
         </ul>
-      </nav>
-      <ul class="list">
-        <li>
-          <a class="header-mail link" href="mailto:info@devstudio.com">
-            info@devstudio.com
-          </a>
-        </li>
-        <li>
-          <a class="header-tel link" href="tel:+380961111111">
-            +38 096 111 11 11
-          </a>
-        </li>
-      </ul>
+      </div>
     </header>
 
     <main>
-      <section class="hero">
+      <section class="hero container">
         <div>
           <h1 class="hero-text">
             Эффективные решения для вашего бизнеса
@@ -48,9 +64,9 @@
         </div>
       </section>
 
-      <section class="advantage">
+      <section class="advantage container">
         <h2 hidden>Преимущества</h2>
-        <ul class="list">
+        <ul class="advantage-text list">
           <li>
             <h3 class="advantage-item">Внимание к деталям</h3>
             <p class="advantage-detail-item">
@@ -59,7 +75,7 @@
             </p>
           </li>
         </ul>
-        <ul class="list">
+        <ul class="advantage-text list">
           <li>
             <h3 class="advantage-item">Пунктуальность</h3>
             <p class="advantage-detail-item">
@@ -68,7 +84,7 @@
             </p>
           </li>
         </ul>
-        <ul class="list">
+        <ul class="advantage-text list">
           <li>
             <h3 class="advantage-item">Планирование</h3>
             <p class="advantage-detail-item">
@@ -77,7 +93,7 @@
             </p>
           </li>
         </ul>
-        <ul class="list">
+        <ul class="advantage-text list">
           <li>
             <h3 class="advantage-item">Современные технологии</h3>
             <p class="advantage-detail-item">
@@ -88,9 +104,9 @@
         </ul>
       </section>
 
-      <section class="activities">
+      <section class="activities-container container">
         <h2 class="activities-header">Чем мы занимаемся</h2>
-        <ul class="list">
+        <ul class="activities-list list">
           <li>
             <img
               src="./img/code-writing.jpg"
@@ -118,9 +134,9 @@
         </ul>
       </section>
 
-      <section>
+      <section class="team-text container">
         <h2 class="team">Наша команда</h2>
-        <ul class="list">
+        <ul class="team-members list">
           <li>
             <img
               src="./img/IgorDemianenko.jpg"
@@ -165,32 +181,35 @@
       </section>
     </main>
 
-    <footer class="footer">
-      <a class="footer-logo link" href="" lang="en"><span class="footer-accent">Web</span>Studio</a>
-      <address class="contacts-address">
-        <ul class="list">
-          <li>
-            <a
-              class="footer-address link"
-              href="https://goo.gl/maps/JnVJ7oRj71nepejRA"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              г. Киев, пр-т Леси Украинки, 26
-            </a>
-          </li>
-          <li>
-            <a class="footer-mail link" href="mailto:info@example.com">
-              info@example.com
-            </a>
-          </li>
-          <li>
-            <a class="footer-tel link" href="tel:+380991111111">
-              +38 099 111 11 11
-            </a>
-          </li>
-        </ul>
-      </address>
+    <footer class="footer container">
+      <a class="footer-logo link" href="" lang="en">
+        <span class="footer-accent">Web</span>Studio</a>
+      <div class="footer-connect">
+        <address class="contacts-address">
+          <ul class="list">
+            <li>
+              <a
+                class="footer-address link"
+                href="https://goo.gl/maps/JnVJ7oRj71nepejRA"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                г. Киев, пр-т Леси Украинки, 26
+              </a>
+            </li>
+            <li>
+              <a class="footer-mail link" href="mailto:info@example.com">
+                info@example.com
+              </a>
+            </li>
+            <li>
+              <a class="footer-tel link" href="tel:+380991111111">
+                +38 099 111 11 11
+              </a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
