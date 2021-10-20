@@ -384,11 +384,17 @@ color: var(--text-color);
   margin-bottom: 94px;
 }
 
-.offer-item {
-  justify-content: space-between;
+.list-item {
+  margin-top: 20px;
+}
+
+.list-item-text {
+  margin-top: 4px;
+  margin-bottom: 50px;
 }
 
 .list-item-text {
   justify-content: space-between;
   align-content: center;
 }
+
