@@ -327,7 +327,7 @@ padding-bottom: 60px;
 
 .footer-address {
 font-size: 14px;
-line-height: 1.71
+line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(----footer-address-color)}
 
@@ -360,6 +360,12 @@ color: var(----footer-address-color)}
 .menu-container {
   margin-top: 94px;
   margin-bottom: 34px;
+}
+
+.portfolio-header-container {
+  border-bottom: solid;
+  border-color: #ECECEC;
+  border-width: 1px;
 }
 
 
@@ -430,14 +436,13 @@ color: var(--text-color);
 
 .item-text {
   padding: 20px 24px 20px 24px;
+  border: solid;
+  border-width: 1px;
+  border-color: #EEEEEE;
 }
 
 .list-item-text {
   margin-top: 4px;
-}
-
-.offer-item {
- 
 }
 
 .list-item-text {
